@@ -1,0 +1,63 @@
+body {
+    font-family: Arial;
+    background-color: lightpink;
+
+}
+
+h1 {
+    font-size: 38px
+}
+
+h2{
+    font-size: 32px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header > img {
+    width: 100px
+}
+
+.ingredients-list {
+    list-style : square inside;
+}
+
+
+ol {
+    list-style: upper-roman inside;
+}
+
+
+.user_review h4 {
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+.directions-list {
+    list-style : lower-alpha
+}
+
+input[type="radio"]{
+    cursor: pointer;
+    outline: none;
+}
+
+input[type="submit"]:last-child{
+    background-color: gold;
+}
+
+input[type="submit"]:hover{
+    -webkit-filter: brightness(50%);
+}
+
+
+input[type="radio"] {
+    -webkit-appearance: none;
+    width: 27px;
+    height: 27px;
+    background-image: url(./stars.png);
+    vertical-align: bottom;
+}
